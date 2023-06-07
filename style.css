@@ -51,18 +51,18 @@ display: none;
 }
 .arrow-prev img{
   position: absolute;
-  left: 5px;
+  left: 10px;
   top: 50%;
   z-index: 1;
-  width: 35px;
+  width: 15px;
   transform: scaleX(-1);
   cursor: pointer;
 }
 .arrow-next img{
   position: absolute;
-  right: 5px;
+  right: 10px;
   top:50%;
-  width: 35px;
+  width: 15px;
   cursor: pointer;
 }
 
