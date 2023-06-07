@@ -84,17 +84,20 @@ display: none;
   gap: 12px;
   justify-content: center;
   align-items: center;
+  margin: 0px 40px 0;
   
 }
 .card-container{
-  width: 268px;
-  height: 436px;
+  width: 270px;
+  height: auto;
   border: 2px solid rgb(41, 31, 8);
   border-radius: 12px;
   text-align: center;
+  margin-right: 12px;
 }
 .product-image{
-  width: 250px;
+  width: 80%;
+  margin: auto;
   padding: 20px 0;
   border-bottom: 1px solid black;
 }
@@ -105,8 +108,7 @@ display: none;
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 50%;
-  margin: 30px auto 0;
+  margin: 10px auto 15px;
   justify-content: center;
   background-color: #FF6500;
   color: white;
@@ -141,6 +143,22 @@ display: none;
 }
 .pix{
   color: rgba(0, 0, 0, 0.538);
+}
+.slider-cards{
+  position: relative;
+}
+.card-prev{
+  position: absolute;
+  bottom: 50%;
+  left: 15px;
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+.card-next{
+  position: absolute;
+  bottom: 50%;
+  right: 15px;
+  cursor: pointer;
 }
 
 footer{
