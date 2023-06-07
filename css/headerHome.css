@@ -31,25 +31,3 @@ nav ul li a:hover{
   opacity: 1;
   border-bottom: 1px solid black;
 }
-
-/*Footer*/
-
-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  margin-top: 100px;
-  padding: 20px 0;
-}
-footer a{
-  text-decoration: none;
-  color: #002f94;
-  font-weight: bold;
-}
-footer img{
-  width: 150px;
-  right: 10px;
-}
