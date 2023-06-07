@@ -1,23 +1,6 @@
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: 100px;
-    padding: 20px 0;
-    font-family: 'Poppins', sans-serif;
-  }
-  footer a{
-    text-decoration: none;
-    color: #002f94;
-    font-weight: bold;
-  }
-  footer img{
-    width: 150px;
-    right: 10px;
-  }
+@import "./headerCheckout.css";
+@import "./footer.css";
+
 
   .emailCheckout{
   border: 1px solid #c4c1c1;
@@ -39,6 +22,7 @@ footer{
     color: #ffffff;
     width: 15%;
     height: 55px;
+    font-weight: bold;
 }
 
 .emailInfo{
@@ -54,5 +38,9 @@ footer{
 .liEmail {
     list-style-type:none;
     font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.emailInfo h3, .btn-email {
     font-family: 'Poppins', sans-serif;
 }
