@@ -1,0 +1,38 @@
+@import "./headerCheckout.css";
+@import "./footer.css";
+
+
+.formPro{
+    border: 1px solid gray;
+    border-radius: 0;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titlePro {
+    margin-left: 5px;
+}
+
+.subTitle {
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+
+.formInput {
+    margin-left: 5px;
+}
+
+.input {
+    border: 1px solid gray;
+    width: 400px;
+    height: 45px;
+}
+
+.btnPro {
+    background: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
