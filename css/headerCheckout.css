@@ -1,7 +1,7 @@
 header{
   display: flex;
   font-family: 'Poppins', sans-serif;
-  margin: 10px 300px 10px;
+  margin: 10px auto 10px;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -22,8 +22,6 @@ header ul li{
   opacity: .4;
 }
 header .logo{
-  position: absolute;
-  left: 0;
   max-width: 150px;
   max-height: 150px;
 }

@@ -1,2 +1,54 @@
 @import "./footer.css";
-@import "./headerCheckout.css"
+@import "./headerCheckout.css";
+
+main{
+ display: flex;
+ justify-content: center;
+ font-family: "Poppins",sans-serif;
+ margin-top: 80px;
+ position: relative;
+}
+table{
+  text-align: center;
+}
+.produto{
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+}
+th{
+  padding: 0 60px 0;
+}
+
+
+.produto img{
+  width: 150px;
+}
+.finalizar-compra{
+  background-color: #FF6500;
+  border: none;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.sendToEmail{
+  margin: auto 0;
+}
+.minus-btn,.plus-btn{
+  background-color: white;
+  border: 2px solid rgb(89, 89, 89);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.minus-btn img, .plus-btn img{
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
