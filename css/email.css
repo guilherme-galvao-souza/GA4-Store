@@ -1,0 +1,58 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer a{
+    text-decoration: none;
+    color: #002f94;
+    font-weight: bold;
+  }
+  footer img{
+    width: 150px;
+    right: 10px;
+  }
+
+  .emailCheckout{
+  border: 1px solid #c4c1c1;
+    font-size: 13px;
+    padding-left: 20px;
+    color: #000;
+    width: 300px;
+    border-radius: 0;
+    height: 50px;
+}
+
+.emailContent{
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+.btn-email{
+    background: black;
+    color: #ffffff;
+    width: 15%;
+    height: 55px;
+}
+
+.emailInfo{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.iconOk {
+    width: 20px;
+    
+}
+
+.liEmail {
+    list-style-type:none;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
