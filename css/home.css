@@ -143,8 +143,8 @@ display: none;
   font-weight: bold;
   font-size: 22px;
   position: absolute;
-  left: 10px;
-  top: 0px;
+  left: 20px;
+  top: 5px;
   cursor: pointer;
 }
 .open-cart{
@@ -194,18 +194,19 @@ display: none;
   flex-direction: column;
   flex-wrap: wrap;
   z-index: 1;
-  margin: 20px auto;
+  margin: 50px auto;
   border-bottom: 2px solid black;
   width: 250px;
 }
 .selected-product-name{
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 10px;
-  padding-right: 10px;
 }
 .selected-product-price{
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
+  color: #FF6500;
+  font-weight: bold;
 }
 .btnFinalizar{
  padding: 15px 30px;
