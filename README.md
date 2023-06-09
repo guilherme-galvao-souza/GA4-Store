@@ -7,7 +7,7 @@ Neste projeto utilizamos HTML, CSS e Javascript.
 # Prints do projeto 
 ***HOME***
 ![Home do site](https://i.imgur.com/EHasPaE.png)
-**Carrinho**
+***Carrinho***
 ![Carrinho do site](https://i.imgur.com/sXW20xC.png)
-**Email**
+***Email***
 ![Email](https://i.imgur.com/VLdps2n.png)
