@@ -15,15 +15,33 @@
 </head>
 <body>
   <header>
-    <img class="logo" src="../imgs/logoGa4.svg" alt="Logo do GA4">
+    <a href="../index.html"><img class="logo" src="../imgs/logoGa4.svg" alt="Logo do GA4"></a>
     <ul>
       <li class="ativo"><img src="../imgs/headerCheckoutIcons/Cart.svg" alt="icone de uma sacola do carrinho">Carrinho</li>
       <li><img src="../imgs/headerCheckoutIcons/email.svg" alt="icone de uma pessoa">Email</li>
       <li><img src="../imgs/headerCheckoutIcons/Profile.svg" alt="icone de uma sacola do carrinho">Profile</li>
       <li><img src="../imgs/headerCheckoutIcons/payment.svg" alt="icone de uma sacola do carrinho">Payment</li>
-      <li><img src="../imgs/headerCheckoutIcons/orderPlaced.svg" alt="icone de uma sacola do carrinho">orderPlaced</li>
+      <li><img src="../imgs/headerCheckoutIcons/orderPlaced.svg" alt="icone de uma sacola do carrinho">Confirmação</li>
     </ul>
   </header>
+  <main>
+    <table>
+      <tr>
+        <th scope="col">Produto</th>
+        <th scope="col">Preço</th>
+        <th scope="col">Quantidade</th>
+        <th scope="col">Total</th>
+    </tr>
+    <tr>
+      <td class="produto"><img src="../imgs/products/celular.jpg" alt="imagem do produto">Celular 128GB/6GB RAM</td>
+      <td>R$ 1.180,99</td>
+      <td class="quantidade"><button class="minus-btn"><img src="../imgs/cart/minus.svg" alt="Sinal de menos"></button> 01 <button class="plus-btn"><img src="../imgs/cart/plus.svg" alt=""></button></td>
+      <td>R$ 1.180,99</td>
+  </tr>
+    </table>
+    <a href="./email.html" class="sendToEmail"><button class="finalizar-compra">Finalizar compra</button></a>
+  </main>
+  
   <footer>
     <p>Feito com 💜</p>
     <img src="../imgs/enext_logo.png" alt="Logo da Enext">

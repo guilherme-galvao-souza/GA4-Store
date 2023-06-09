@@ -23,6 +23,7 @@
     width: 15%;
     height: 55px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .emailInfo{

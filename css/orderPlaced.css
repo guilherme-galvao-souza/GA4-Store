@@ -1,0 +1,26 @@
+@import "./headerCheckout.css";
+@import "./footer.css";
+
+main{
+  text-align: center;
+  margin-bottom: 200px;
+}
+main section{
+  margin: 250px 0 20px;
+}
+main h1, main button{
+  font-family: "Poppins",monospace;
+}
+main img{
+  width: 30px;
+}
+main button{
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #000000;
+  cursor: pointer;
+}
