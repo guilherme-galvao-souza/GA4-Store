@@ -1,0 +1,88 @@
+@import "./headerCheckout.css";
+@import "./footer.css";
+
+
+
+.selectPay {
+    border: 1px solid lightgray;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 35%;
+    margin-top: 10%;
+    box-sizing: border-box;
+    height: 230px;
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    margin-left: 2%;
+}
+
+.pix,.boleto,.cartao {
+    margin-left: 2%;
+    border-radius: 50%; 
+    cursor: pointer;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+}
+
+.btn-confirm2 {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 20px;
+    margin-left: 23%;
+    height: 40px;
+    width: 200px;
+
+}
+
+
+.cart-info{
+    position: relative;
+    left: 1000px;
+    top: -500px;
+    border: 1px solid gray;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    height: 300px
+}
+
+.infoProd {
+    width: 100px;
+    
+}
+
+.infoProdli{
+    list-style-type:none;
+}
+
+.infoCel {
+    margin-left: 120px;
+    position: relative;
+    top: -70px;
+}
+
+.info {
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+.info2 {
+    margin-left: 250px;
+    font-weight: lighter;
+    position: relative;
+    top: -50px;
+}
+
+.info3 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px
+}
