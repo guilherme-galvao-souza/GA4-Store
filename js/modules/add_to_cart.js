@@ -3,6 +3,7 @@ export default function initAddtoCart(){
   const cartSection = document.querySelector(".open-cart");
   const cartCloseBtn = document.querySelector(".close-cart");
   const backgroundCart = document.querySelector(".background-cart");
+  let dataLayerAddToCart;
 
   addCartBtns.forEach((btn)=>{
     btn.addEventListener("click",enviarDataLayer);
@@ -15,7 +16,7 @@ function enviarDataLayer(){
   const nomeProduto = this.parentNode.querySelector(".product-title").innerText;
   const precoProduto = +this.parentNode.querySelector(".new-price").innerText.replace("R$","").replaceAll(".","").replaceAll(",",".");
   const currency = "BRL";
-  const dataLayerAddToCart = {
+    dataLayerAddToCart = {
     "event":"add_to_cart",
     "currency":currency,
     "value":precoProduto,
