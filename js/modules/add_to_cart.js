@@ -22,8 +22,8 @@ function enviarDataLayer(){
     "value":precoProduto,
       add: {
         products: [{
-         name: nomeProduto,
-         id: "1234",
+         item_name: nomeProduto,
+         item_id: "1234",
         }]
      }
    
