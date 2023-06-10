@@ -7,6 +7,7 @@ export default function initAddtoCart(){
   addCartBtns.forEach((btn)=>{
     btn.addEventListener("click",enviarDataLayer);
     btn.addEventListener("click",ativarCart);
+    window.dataLayer.push(dataLayerAddToCart);
   });
 
   cartCloseBtn.addEventListener("click",desativarCart);
@@ -23,7 +24,6 @@ function enviarDataLayer(){
       "item_name":nomeProduto,
     }]
 };
-  window.dataLayer.push(dataLayerAddToCart);
   console.log(dataLayerAddToCart); 
 }
 
