@@ -20,9 +20,12 @@ function enviarDataLayer(){
     "event":"add_to_cart",
     "currency":currency,
     "value":precoProduto,
-    "items":[{
-      "item_name":nomeProduto,
-    }]
+      add: {
+        items: [{
+         "item_name":nomeProduto,
+        }]
+     }
+   
 };
   window.dataLayer.push(dataLayerAddToCart);
   console.log(dataLayerAddToCart); 
