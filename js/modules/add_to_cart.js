@@ -22,7 +22,8 @@ function enviarDataLayer(){
     "items":[{
       "item_name":nomeProduto,
     }]
-  }
+};
+  window.dataLayer.push(dataLayerAddToCart);
   console.log(dataLayerAddToCart); 
 }
 
