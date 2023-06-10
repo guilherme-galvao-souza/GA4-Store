@@ -21,8 +21,9 @@ function enviarDataLayer(){
     "currency":currency,
     "value":precoProduto,
       add: {
-        items: [{
-         "item_name":nomeProduto,
+        products: [{
+         name: nomeProduto,
+         id: "1234",
         }]
      }
    
